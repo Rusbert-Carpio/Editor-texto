@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .buttons button {
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .buttons button:hover {
+    background: #45a049;
+}
+
+#editor {
+    flex: 1;
+    padding: 1em;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    background: #fff;
+    color: #333;
+}
